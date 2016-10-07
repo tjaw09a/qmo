@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    runtime 'mysql:mysql-connector-java:5.1.34'
+}
+
